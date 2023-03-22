@@ -2,17 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Vilskud</title>
   </head>
-  <body class="grid place-items-center p-8">
-    <h1 class="text-xl font-bold text-emerald-700">Tailwind Template 2023</h1>
-    <p class="text-emerald-500">
-      Powered by <a href="https://vitejs.dev/guide">Vite</a>
-    </p>
-    <img src="img/vite.svg" alt="Vite Logo" />
+  <body class="bg-baggrund">
+    <header class="">
+      <nav>
+        <a href=""><img src="" alt="" /></a>
+        <div class="menu">
+          <ul>
+            <li>
+              <a class="menuItem" href="program.html">PROGRAM</a>
+            </li>
+            <li>
+              <a class="menuItem" href="biletter.html">BILETTER</a>
+            </li>
+            <li>
+              <a class="menuItem" href="lokationer.html">LOKATIONER</a>
+            </li>
+            <li>
+              <a class="menuItem" href="om.html">OM VILDSKUD</a>
+            </li>
+          </ul>
+          <div class="flex h-1/4 items-end justify-center gap-12">
+            <img class="ikons h-8" src="img/square-facebook.svg" alt="" />
+            <img class="h-8" src="img/square-instagram.svg" alt="" />
+          </div>
+        </div>
 
+        <button class="menu_toggle_btn">
+          <img src="img/bars-solid.svg" alt="" class="menuIcon h-8" />
+          <img src="img/x-solid.svg" alt="" class="closeIcon h-8" />
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="herobg flex h-screen flex-col justify-center gap-12">
+        <div class="item-end">
+          <h1>VILSKUD</h1>
+          <h2>SCENEKUNSTENS</h2>
+          <h1>FESTIVAL</h1>
+        </div>
+        <div>
+          <h2>KØBENHAVN</h2>
+          <h3>2023</h3>
+        </div>
+        <div>
+          <button>Køb billet</button>
+        </div>
+      </section>
+      <section></section>
+    </main>
+    <footer></footer>
+    <!-- text indhold i h2 herunder bliver sat og ændret i scriptet-->
+    <h2 id="forestilling-type-headline"></h2>
+
+    <!--section herunder hvor templaten bliver placeret efter den er genereret med indhold-->
+    <section id="forestilling-holder"></section>
+
+    <!-- Template til visning af pris -->
+    <template id="forestilling-template">
+      <article id="forestilling_article">
+        <h4 id="forestilling-dato"></h4>
+        <div id="forestilling-grid">
+          <p id="forestilling"></p>
+          <p id="dato"></p>
+          <p id="lokation"></p>
+        </div>
+      </article>
+    </template>
+    <script type="module" src="./scripts.js"></script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
