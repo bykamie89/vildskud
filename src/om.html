@@ -5,37 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vilskud</title>
   </head>
-  <body class="">
+  <body class="bg-baggrund">
     <header class="">
       <nav>
         <a href=""><img src="" alt="" /></a>
-        <ul class="menu">
-          <li>
-            <a class="menuItem" href="program.html">PROGRAM</a>
-          </li>
-          <li>
-            <a class="menuItem" href="biletter.html">BILETTER</a>
-          </li>
-          <li>
-            <a class="menuItem" href="lokationer.html">LOKATIONER</a>
-          </li>
-          <li>
-            <a class="menuItem" href="om.html">OM VILDSKUD</a>
-          </li>
-        </ul>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <div class="menu">
+          <ul>
+            <li>
+              <a class="menuItem" href="program.html">PROGRAM</a>
+            </li>
+            <li>
+              <a class="menuItem" href="biletter.html">BILETTER</a>
+            </li>
+            <li>
+              <a class="menuItem" href="lokationer.html">LOKATIONER</a>
+            </li>
+            <li>
+              <a class="menuItem" href="om.html">OM VILDSKUD</a>
+            </li>
+          </ul>
+          <div class="flex h-1/4 items-end justify-center gap-12">
+            <img class="ikons h-8" src="img/square-facebook.svg" alt="" />
+            <img class="h-8" src="img/square-instagram.svg" alt="" />
+          </div>
         </div>
+
         <button class="menu_toggle_btn">
-          <i class="menuIcon">menu</i>
-          <i class="closeIcon">close</i>
+          <img src="img/bars-solid.svg" alt="" class="menuIcon h-8" />
+          <img src="img/x-solid.svg" alt="" class="closeIcon h-8" />
         </button>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
-    <script src="./scripts.js"></script>
+
+    <main class="w-100% h-100% ml-5 mr-5 mt-20 pb-10">
+      <section class="grid grid-cols-2">
+        <h1 class="col-span-2 text-start text-5xl md:text-center"><strong>OM VILDSKUD</strong></h1>
+        <p class="col-span-2 pb-5 text-start italic md:col-start-2">Festival for uafhængig scenekunst</p>
+      </section>
+
+      <div class="swirl">
+        <section class="grid grid-cols-3">
+          <h2 class="col-span-3 col-start-1 text-center text-3xl"><strong>Hvem er vi?</strong></h2>
+          <p class="col-span-2 col-start-2 ml-5"><strong>Fejring af vækstlaget</strong></p>
+          <p class="col-span-2 col-start-2 ml-5 text-justify">Vildskud støtter op om det uafhængige scenekunstmiljø ved at skabe rum for de udøvende scenekunstneres udvikling. Vi støtter op om kunstnernes arbejde fra udviklingen af deres ideer, proces og til den endelige forestilling.</p>
+          <p class="col-span-2 col-start-2 ml-5 mt-10"><strong>Vision</strong></p>
+          <p class="col-span-2 col-start-2 ml-5 text-justify">Vildskuds mål er at give undergrunden i dansk scenekunst en platform med mulighed for at møde et bredt publikum, og på den måde skabe synlighed for vækstlaget.</p>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="./scripts.js"></script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
