@@ -60,3 +60,10 @@
     background-image: url("img/Artboard-6.svg");
     background-size: cover;
   }
+
+  hr{
+    border: 0.5px solid #ff0000;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+  }

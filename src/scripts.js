@@ -21,9 +21,3 @@ menubtn.addEventListener('click', toggleMenu);
 menuItems.forEach(function (menuItem) {
   menuItem.addEventListener('click', toggleMenu);
 });
-
-import data from './program.json';
-const program = data;
-console.log(program);
-
-function showProgram(program) {}
