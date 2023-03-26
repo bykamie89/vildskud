@@ -95,8 +95,16 @@ h3 {
   .swirl {
     background-position: 0% 0%;
   }
-  .swirl_2 {
-    background-position: 0% 0%;
+  
+  @media (max-width: 767px) {
+    
+  
+  .menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
   }
 }
 
@@ -113,6 +121,7 @@ h3 {
   .swirl_2 {
     background-position: 45% 0%;
   }
+}
 
   .swirl {
     background-position: 10% 0%;
@@ -124,3 +133,14 @@ hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+  .herobg{
+    background-image: url("img/Artboard-6.svg");
+    background-size: cover;
+  }
+
+  hr{
+    border: 0.5px solid #ff0000;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+  }

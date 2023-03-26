@@ -10,7 +10,7 @@
       <nav>
         <a href=""><img src="" alt="" /></a>
         <div class="menu">
-          <ul>
+          <ul class="flex flex-row justify-end">
             <li>
               <a class="menuItem" href="program.html">PROGRAM</a>
             </li>
@@ -24,21 +24,25 @@
               <a class="menuItem" href="om.html">OM VILDSKUD</a>
             </li>
           </ul>
-          <div class="flex h-1/4 items-end justify-center gap-12">
+          <div class="flex h-1/4 items-end justify-center gap-12 md:hidden">
             <img class="ikons h-8" src="img/square-facebook.svg" alt="" />
             <img class="h-8" src="img/square-instagram.svg" alt="" />
           </div>
         </div>
 
-        <button class="menu_toggle_btn">
+        <button class="menu_toggle_btn md:hidden">
           <img src="img/bars-solid.svg" alt="" class="menuIcon h-8" />
           <img src="img/x-solid.svg" alt="" class="closeIcon h-8" />
         </button>
       </nav>
     </header>
     <main>
-      <section class="herobg flex h-screen flex-col justify-center gap-12">
-        <div class="self-end">
+      <section
+        class="herobg flex h-screen flex-col justify-center gap-12 md:grid md:grid-cols-3"
+      >
+        <div
+          class="self-end md:col-span-2 md:col-end-4 md:flex md:flex-col md:items-end"
+        >
           <h1>VILDSKUD</h1>
           <h2>SCENEKUNSTENS</h2>
           <h1>FESTIVAL</h1>
@@ -48,7 +52,7 @@
           <h3>2023</h3>
         </div>
         <div>
-          <button>Køb billet</button>
+          <button class="btn-primary">Køb billet</button>
         </div>
       </section>
       <section>
