@@ -15,9 +15,9 @@
 
 h1,
 h2,
-h3,
-p {
+h3 {
   font-family: "inter";
+  font-weight: bolder;
 }
 
 .menuItem {
@@ -82,8 +82,20 @@ p {
   background-repeat: no-repeat;
 }
 
+.swirl_2 {
+  background-image: url(../img/swirl_2.svg);
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  background-position: -14% 0%;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 450px) {
   .swirl {
+    background-position: 0% 0%;
+  }
+  .swirl_2 {
     background-position: 0% 0%;
   }
 }
@@ -91,5 +103,18 @@ p {
 @media (min-width: 600px) {
   .swirl {
     background-position: 15% 0%;
+  }
+  .swirl_2 {
+    background-position: 15% 0%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .swirl_2 {
+    background-position: 45% 0%;
+  }
+
+  .swirl {
+    background-position: 10% 0%;
   }
 }
