@@ -6,10 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
-
-
 
 @font-face {
   font-family: "inter";
@@ -23,67 +20,66 @@ h3 {
   font-weight: bold;
   color: #231e1e;
   margin-bottom: 1rem;
-  
 }
-p, a, li{
+p,
+a,
+li {
   color: #231e1e;
   line-height: 1.6;
 }
-a{
+a {
   text-decoration: underline;
 }
 
 @media (max-width: 768px) {
+  .menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
 
-.menuItem {
-  display: block;
-  margin: 2rem 4rem;
-  font-size: 1.8rem;
-  color: white;
-  text-decoration: none;
-}
+  .menuItem:hover {
+    text-decoration: underline;
+  }
 
-.menuItem:hover {
-  text-decoration: underline;
-}
+  .menu_toggle_btn {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+  }
 
-.menu_toggle_btn {
-  position: fixed;
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  padding: 4px;
-  cursor: pointer;
-}
+  .closeIcon {
+    display: none;
+  }
 
-.closeIcon {
-  display: none;
-}
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #ff0000;
+    color: #231e1e;
+    list-style: none;
+    padding-top: 4rem;
+  }
 
-.menu {
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background: #ff0000;
-  color: #231e1e;
-  list-style: none;
-  padding-top: 4rem;
-}
+  .showMenu {
+    transform: translateY(0);
+  }
 
-.showMenu {
-  transform: translateY(0);
-}
-
-.herobg{
-  background-image: url("../img/swirl_mobile.svg");
-  background-size: cover;
-}
-
+  .herobg {
+    background-image: url("../img/swirl_mobile.svg");
+    background-size: cover;
+  }
 }
 
 .ikons {
@@ -93,14 +89,12 @@ a{
 .herobg {
   background-image: url("../img/Artboard-6.svg");
   background-size: cover;
- 
 }
 
-.swirl {
+/* .swirl {
   background-image: url(../img/swirl_2.svg);
   width: 100%;
   height: 250px;
-  object-fit: contain;
   background-position: -14% 0%;
   background-repeat: no-repeat;
 }
@@ -109,7 +103,6 @@ a{
   background-image: url(../img/swirl_2.svg);
   width: 100%;
   height: 250px;
-  object-fit: contain;
   background-position: -14% 0%;
   background-repeat: no-repeat;
 }
@@ -177,3 +170,4 @@ hr {
     padding: 0.5rem;
     margin-top: 0.5rem;
   }
+} */
