@@ -73,11 +73,10 @@ h3 {
   background-size: cover;
 }
 
-.swirl {
+/* .swirl {
   background-image: url(../img/swirl_2.svg);
   width: 100%;
   height: 250px;
-  object-fit: contain;
   background-position: -14% 0%;
   background-repeat: no-repeat;
 }
@@ -86,7 +85,6 @@ h3 {
   background-image: url(../img/swirl_2.svg);
   width: 100%;
   height: 250px;
-  object-fit: contain;
   background-position: -14% 0%;
   background-repeat: no-repeat;
 }
@@ -117,4 +115,4 @@ h3 {
   .swirl {
     background-position: 10% 0%;
   }
-}
+} */
