@@ -40,9 +40,19 @@ a {
 
 }
 
-.ikons {
-  fill: blue;
+.button{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 3rem; 
+  width: 9rem; 
+  background-color: #1400ff; 
+  color: #FFe9e9; 
+  border-radius: 50px;  
+  cursor: pointer;
 }
+
+
 
 hr {
   border: 0.5px solid #ff0000;
