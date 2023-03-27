@@ -31,66 +31,109 @@ a {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  .menuItem {
-    display: block;
-    margin: 2rem 4rem;
-    font-size: 1.8rem;
-    color: white;
-    text-decoration: none;
-  }
+.herobg {
+  background-image: url("../img/swirl_desk.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 30%;
+  height: 90vh;
 
-  .menuItem:hover {
-    text-decoration: underline;
-  }
-
-  .menu_toggle_btn {
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
-    cursor: pointer;
-  }
-
-  .closeIcon {
-    display: none;
-  }
-
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: #ff0000;
-    color: #231e1e;
-    list-style: none;
-    padding-top: 4rem;
-  }
-
-  .showMenu {
-    transform: translateY(0);
-  }
-
-  .herobg {
-    background-image: url("../img/swirl_mobile.svg");
-    background-size: cover;
-  }
 }
 
 .ikons {
   fill: blue;
 }
 
-.herobg {
-  background-image: url("../img/Artboard-6.svg");
-  background-size: cover;
+.button{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 3rem; 
+  width: 9rem; 
+  background-color: #1400ff; 
+  color: #FFe9e9; 
+  border-radius: 50px;  
+  cursor: pointer;
 }
 
+hr {
+  border: 0.5px solid #ff0000;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+hr .white{
+  border: 0.5px solid #FFe9e9;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+  .infobox {
+    cursor: pointer;
+  }
+  
+  .content {
+    display: none;
+    background-color: #FFF8F8;
+    border: 1px solid #ff0000;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .menuItem {
+      display: block;
+      margin: 2rem 4rem;
+      font-size: 1.8rem;
+      color: white;
+      text-decoration: none;
+    }
+  
+    .menuItem:hover {
+      text-decoration: underline;
+    }
+  
+    .menu_toggle_btn {
+      position: fixed;
+      z-index: 100;
+      top: 1rem;
+      right: 1rem;
+      padding: 4px;
+      cursor: pointer;
+    }
+  
+    .closeIcon {
+      display: none;
+    }
+  
+    .menu {
+      position: fixed;
+      transform: translateY(-100%);
+      transition: transform 0.2s;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 99;
+      background: #ff0000;
+      color: #231e1e;
+      list-style: none;
+      padding-top: 4rem;
+    }
+  
+    .showMenu {
+      transform: translateY(0);
+    }
+  
+    .herobg {
+      background-image: url("../img/swirl_2.svg");
+      background-position: center center;
+      background-size: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+  }
 /* .swirl {
   background-image: url(../img/swirl_2.svg);
   width: 100%;
@@ -143,31 +186,7 @@ a {
     background-position: 10% 0%;
   }
 }
-
-hr {
-  border: 0.5px solid #ff0000;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
+*/
 
 
-  hr{
-    border: 0.5px solid #ff0000;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-
-  }
-
-  .infobox {
-    cursor: pointer;
-  }
-
-  
-  .content {
-    display: none;
-    background-color: #FFF8F8;
-    border: 1px solid #ff0000;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-  }
-} */
+ 
