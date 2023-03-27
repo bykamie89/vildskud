@@ -21,3 +21,18 @@ menubtn.addEventListener('click', toggleMenu);
 menuItems.forEach(function (menuItem) {
   menuItem.addEventListener('click', toggleMenu);
 });
+
+var info = document.getElementsByClassName('infobox');
+var i;
+
+for (i = 0; i < info.length; i++) {
+  info[i].addEventListener('click', function () {
+    this.classList.toggle('active');
+    var content = this.nextElementSibling;
+    if (content.style.display === 'block') {
+      content.style.display = 'none';
+    } else {
+      content.style.display = 'block';
+    }
+  });
+}

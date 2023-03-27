@@ -6,7 +6,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
+
 
 @font-face {
   font-family: "inter";
@@ -17,8 +20,20 @@ h1,
 h2,
 h3 {
   font-family: "inter";
-  font-weight: bolder;
+  font-weight: bold;
+  color: #231e1e;
+  margin-bottom: 1rem;
+  
 }
+p, a, li{
+  color: #231e1e;
+  line-height: 1.6;
+}
+a{
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
 
 .menuItem {
   display: block;
@@ -64,13 +79,21 @@ h3 {
   transform: translateY(0);
 }
 
+.herobg{
+  background-image: url("../img/swirl_mobile.svg");
+  background-size: cover;
+}
+
+}
+
 .ikons {
   fill: blue;
 }
 
 .herobg {
-  background-image: url("img/Artboard-6.svg");
+  background-image: url("../img/Artboard-6.svg");
   background-size: cover;
+ 
 }
 
 .swirl {
@@ -133,14 +156,24 @@ hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-  .herobg{
-    background-image: url("img/Artboard-6.svg");
-    background-size: cover;
-  }
+
 
   hr{
     border: 0.5px solid #ff0000;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 
+  }
+
+  .infobox {
+    cursor: pointer;
+  }
+
+  
+  .content {
+    display: none;
+    background-color: #FFF8F8;
+    border: 1px solid #ff0000;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
   }
