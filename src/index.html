@@ -36,7 +36,7 @@
         </button>
       </nav>
     </header>
-    <main class="ml-4 mr-4">
+    <main class="ml-4 mr-4 md:ml-40 md:mr-40">
       <section
         class="herobg flex flex-col justify-center gap-12 md:grid md:grid-cols-3"
       >
@@ -47,23 +47,29 @@
           <h2 class="md: text-right text-3xl">SCENEKUNSTENS</h2>
           <h1 class="text-right text-5xl md:text-5xl">FESTIVAL</h1>
         </div>
-        <div>
-          <h2 class="text-3xl">KØBENHAVN</h2>
+        <div class="md:flex md:flex-col md:justify-end">
+          <h2 class="mb-0 text-3xl">KØBENHAVN</h2>
           <h3 class="text-xl">2023</h3>
         </div>
 
-        <div class="button self-end">
+        <div
+          class="button self-end md:col-end-4 md:self-start md:justify-self-end"
+        >
           <a href="">Køb billet</a>
         </div>
       </section>
-      <div class="md:grid md:grid-cols-2">
+      <div class="md:mt-12 md:grid md:grid-cols-2">
         <section class="flex justify-evenly">
           <div class="">
-            <h3 class="mb-0 mt-2 text-xl text-vilskud_red">02. - 06.</h3>
-            <h3 class="mb-0 mt-1 text-xl text-vilskud_red">08.2023</h3>
+            <h3 class="mb-0 mt-2 text-xl text-vilskud_red md:sticky">
+              02. - 06.
+            </h3>
+            <h3 class="mb-0 mt-1 text-xl text-vilskud_red md:sticky">
+              08.2023
+            </h3>
           </div>
           <div>
-            <h2 class="text-3xl text-vilskud_red">
+            <h2 class="text-3xl text-vilskud_red md:sticky">
               UGENS <br />
               PROGRAM
             </h2>
@@ -73,60 +79,70 @@
           <p>02.08</p>
           <h2 class="text-3xl">TIRSDAG</h2>
           <hr />
+          <!-- done LINK VOX  - vild med mig-->
           <div class="grid gap-4">
-            <div class="flex gap-8">
+            <div class="grid grid-cols-3 gap-8 align-top">
               <div class="flex items-center gap-2">
                 <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+                <p>18:30</p>
               </div>
-              <div class="flex items-center gap-2">
+              <a
+                class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                href="https://goo.gl/maps/TkG9yeMRTAmD7Kby5"
+              >
                 <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
-              </div>
+                VOX - Teaterhuset
+              </a>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                VILD MED MIG
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-3 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  Forestilling af TEATER MANNEQUIN Velkommen! Til et univers i
+                  kærlighedens navn. Vi inviterer dig ind i en intim, musikalsk
+                  og glimtende undersøgelse af selvbilleder, kærlighed og higen
+                  efter at blive set, hørt og rørt. Vi tager dig i hånden og
+                  følger dig trygt igennem vores svar på livets store spørgsmål;
+                  er selvkærlighed løsningen på alle problemer? Havde din
+                  gymnasielærer ret, da hun sagde, du bare skulle stole mere på
+                  dig selv - så vil verden lægge sig for dine fødder?
+                  Medvirkende: Therese Maria Bilfeldt, Matilde Kjær Hilligsøe og
+                  Laura Alhed Nielsen Konsulent: Alberte M. H Jacobsen
                 </p>
               </div>
             </div>
           </div>
           <hr />
+          <!-- done link ZeBU  what fires together wires together-->
           <div class="grid gap-4">
-            <div class="flex gap-8">
+            <div class="grid grid-cols-3 gap-8 align-top">
               <div class="flex items-center gap-2">
                 <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+                <p></p>
               </div>
-              <div class="flex items-center gap-2">
+              <a
+                class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                href="https://goo.gl/maps/jRvE4vZACpJZRPPv5"
+              >
                 <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
-              </div>
+                ZeBU
+              </a>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-4">
+              <h3 class="col-span-3 mb-0 text-xl text-vilskud_red">
+                WHAT FIRES TOGETHER WIRES TOGETHER
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-4 rounded-md">
                 <p>
                   En forestilling af Astrid & Lotte Forestillingen “What Fires
                   Together Wires Together” eksperimenterer i spændingsfeltet
@@ -150,96 +166,82 @@
             <h2 class="text-3xl">ONSDAG</h2>
           </div>
           <hr />
+          <!-- done - vild med mig -->
           <div class="grid gap-4">
-            <div class="flex gap-8">
-              <div class="flex items-center gap-2">
-                <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>16:15</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>20:00</p>
+                </div>
               </div>
-              <div class="flex items-center gap-2">
-                <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/PeeBFdf9aTcvHnbN7"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  VOX - Teaterhuset
+                </a>
               </div>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                VILD MED MIG
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-3 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  Forestilling af TEATER MANNEQUIN Velkommen! Til et univers i
+                  kærlighedens navn. Vi inviterer dig ind i en intim, musikalsk
+                  og glimtende undersøgelse af selvbilleder, kærlighed og higen
+                  efter at blive set, hørt og rørt. Vi tager dig i hånden og
+                  følger dig trygt igennem vores svar på livets store spørgsmål;
+                  er selvkærlighed løsningen på alle problemer? Havde din
+                  gymnasielærer ret, da hun sagde, du bare skulle stole mere på
+                  dig selv - så vil verden lægge sig for dine fødder?
+                  Medvirkende: Therese Maria Bilfeldt, Matilde Kjær Hilligsøe og
+                  Laura Alhed Nielsen Konsulent: Alberte M. H Jacobsen
                 </p>
               </div>
             </div>
           </div>
           <hr />
+          <!-- done fires together wires together-->
           <div class="grid gap-4">
-            <div class="flex gap-8">
+            <div class="grid grid-cols-3 gap-8 align-top">
               <div class="flex items-center gap-2">
                 <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+                <p></p>
               </div>
-              <div class="flex items-center gap-2">
+              <a
+                class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                href="https://goo.gl/maps/jRvE4vZACpJZRPPv5"
+              >
                 <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
-              </div>
+                ZeBU
+              </a>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-4">
+              <h3 class="col-span-3 mb-0 text-xl text-vilskud_red">
+                WHAT FIRES TOGETHER WIRES TOGETHER
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
-                <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
-                </p>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="grid gap-4">
-            <div class="flex gap-8">
-              <div class="flex items-center gap-2">
-                <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
-              </div>
-              <div class="flex items-center gap-2">
-                <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
-              </div>
-            </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
-
-              <button type="button" class="infobox mr-4 self-end">
-                <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
-              </button>
-              <div class="content rounded-md">
+              <div class="content col-span-4 rounded-md">
                 <p>
                   En forestilling af Astrid & Lotte Forestillingen “What Fires
                   Together Wires Together” eksperimenterer i spændingsfeltet
@@ -263,109 +265,160 @@
             <h2 class="text-3xl">TORSDAG</h2>
           </div>
           <hr />
+          <!-- done -->
           <div class="grid gap-4">
-            <div class="flex gap-8">
-              <div class="flex items-center gap-2">
-                <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>16:45</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>20:15</p>
+                </div>
               </div>
-              <div class="flex items-center gap-2">
-                <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/PeeBFdf9aTcvHnbN7"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  Xenon - Teaterhuset
+                </a>
               </div>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                GO GO YO-YOKU
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-3 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv
+                  fri i en skov. Det går godt for de tre roomies med at dele
+                  lejlighed, men kæft det går dårligt med at være mennesker i en
+                  nulfejlskultur, hvor alt handler om meritter og
+                  milepælsplaner. Rakel er blevet droppet af sin eks, Lua kommer
+                  bare aldrig videre til prøverne på Skuespillerskolen og Skjold
+                  dater alarmerende uhyggeligt meget. Ikke flere undvigemanøvre
+                  for at blive stemplet som fiasko. Ikke flere hvide løgne for
+                  at være bedre end man er. Ikke mere pleaser-pis for at rykke
+                  op i sit selvskabte hierarki. Ud med skam og ind med sandhed.
+                  Med inspiration i Shinrin-Yoku,
+                  anti-happy-go-lucky-mentalitet, vigtige venner og svære
+                  erkendelser tager Teater Kopfkino os med på en komisk
+                  dannelsesrejse midt i bøvlede livsprocesser. Instruktør:
+                  August Aabo Skuespillere Ann Celina Fønsskov, Sally Klie &
+                  Luca Storm Tekniker Niels Eske Juul Andersen Komponist Simon
+                  Klie Lyrik Musa Mijia Scenograf Ida Sofie Larsen Fotograf
+                  Tenzin Olivia Gustenhoff & Liva Bech Holskov Konsulent: Emil
+                  Christiansen
                 </p>
               </div>
             </div>
           </div>
           <hr />
+          <!-- done link downunder -->
           <div class="grid gap-4">
-            <div class="flex gap-8">
-              <div class="flex items-center gap-2">
-                <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>15:00</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>18:15</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>20:15</p>
+                </div>
               </div>
-              <div class="flex items-center gap-2">
-                <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/x7BzQY576TCM4CZR7"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  DOWNUNDER
+                </a>
               </div>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">RE-BIRTH</h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-3 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  Forestilling af af Where is the rabbithole Året er 2222, vi er
+                  i et underjordisk genfødselskammer - et såkaldt SkaberLab -
+                  hvor mennesker bliver skabt og genskabt, for at kunne leve i
+                  århundreder. . I forsøget på at løse forplantnings krisen,
+                  afskaffede vi den naturlige formering. Nu skabes mennesker af
+                  ufejlbart DNA, af en højteknologisk kult. Det perfekte
+                  menneske er alt. DNA’et er frit for sygdomme, men miljøet er
+                  stadig giftigt, så hvert 12. år genfødes mennesket i en
+                  fornyelsesproces kaldet: ’’RE-BIRTH’’. Bemærk: ønsker du at
+                  blive en aktiv del af ceremonien, så medbring et hårstrå.
+                  Medvirkende: Iben Damkjær, Emil Nygård Konsulent: Julie
+                  Mogensen
                 </p>
               </div>
             </div>
           </div>
           <hr />
+          <!-- DONE -->
           <div class="grid gap-4">
-            <div class="flex gap-8">
+            <div class="grid grid-cols-3 gap-8 align-top">
               <div class="flex items-center gap-2">
                 <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+                <p>18:30</p>
               </div>
-              <div class="flex items-center gap-2">
+              <a
+                class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                href="https://goo.gl/maps/jRvE4vZACpJZRPPv5"
+              >
                 <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
-              </div>
+                ZeBU
+              </a>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-4">
+              <h3 class="col-span-3 mb-0 text-xl text-vilskud_red">
+                DET LEVENDE RUM
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-4 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  En forestilling af Spræng Danseteater. I ‘Det Levende Rum’
+                  møder vi de mennesker, der er blevet elimineret fra den
+                  utopiske verden ‘New Harmony’. De er alle syndige i at have
+                  brudt ‘New Harmony’s regler og normer for god opførsel. Sat
+                  uden for samfundet opdager de, at de er overladt til dem selv,
+                  at der ingen begrænsninger og konsekvenser er, ved at følge
+                  deres menneskelige drifter. Sproget forsvinder, og fysikken
+                  tager over. Velkommen til den store driftsfest! Medvirkende:
+                  Sarah Olivia Klitgaard, Karoline Gammelgaard Jensen , Helga
+                  Bach-Mortensen , Katrine Vedsø Jakobsen og Mollie Næss-Schmidt
+                  Konsulent: Mia Lomholt Tvede Med støtte fra: Snabslanten og
+                  DATS - Dansk Amatør Teater & Scenekunst
                 </p>
               </div>
             </div>
@@ -376,73 +429,253 @@
             <h2 class="text-3xl">FREDAG</h2>
           </div>
           <hr />
+          <!-- done rebirth-->
           <div class="grid gap-4">
-            <div class="flex gap-8">
-              <div class="flex items-center gap-2">
-                <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>15:00</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>18:00</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>20:15</p>
+                </div>
               </div>
-              <div class="flex items-center gap-2">
-                <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/x7BzQY576TCM4CZR7"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  DOWNUNDER
+                </a>
               </div>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">RE-BIRTH</h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-3 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  Forestilling af af Where is the rabbithole Året er 2222, vi er
+                  i et underjordisk genfødselskammer - et såkaldt SkaberLab -
+                  hvor mennesker bliver skabt og genskabt, for at kunne leve i
+                  århundreder. . I forsøget på at løse forplantnings krisen,
+                  afskaffede vi den naturlige formering. Nu skabes mennesker af
+                  ufejlbart DNA, af en højteknologisk kult. Det perfekte
+                  menneske er alt. DNA’et er frit for sygdomme, men miljøet er
+                  stadig giftigt, så hvert 12. år genfødes mennesket i en
+                  fornyelsesproces kaldet: ’’RE-BIRTH’’. Bemærk: ønsker du at
+                  blive en aktiv del af ceremonien, så medbring et hårstrå.
+                  Medvirkende: Iben Damkjær, Emil Nygård Konsulent: Julie
+                  Mogensen
                 </p>
               </div>
             </div>
           </div>
           <hr />
+          <!-- done det levende rum-->
           <div class="grid gap-4">
-            <div class="flex gap-8">
+            <div class="grid grid-cols-3 gap-8 align-top">
               <div class="flex items-center gap-2">
                 <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+                <p>18:00</p>
               </div>
-              <div class="flex items-center gap-2">
+              <a
+                class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                href="https://goo.gl/maps/jRvE4vZACpJZRPPv5"
+              >
                 <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
-              </div>
+                ZeBU
+              </a>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-4">
+              <h3 class="col-span-3 mb-0 text-xl text-vilskud_red">
+                DET LEVENDE RUM
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-4 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  En forestilling af Spræng Danseteater. I ‘Det Levende Rum’
+                  møder vi de mennesker, der er blevet elimineret fra den
+                  utopiske verden ‘New Harmony’. De er alle syndige i at have
+                  brudt ‘New Harmony’s regler og normer for god opførsel. Sat
+                  uden for samfundet opdager de, at de er overladt til dem selv,
+                  at der ingen begrænsninger og konsekvenser er, ved at følge
+                  deres menneskelige drifter. Sproget forsvinder, og fysikken
+                  tager over. Velkommen til den store driftsfest! Medvirkende:
+                  Sarah Olivia Klitgaard, Karoline Gammelgaard Jensen , Helga
+                  Bach-Mortensen , Katrine Vedsø Jakobsen og Mollie Næss-Schmidt
+                  Konsulent: Mia Lomholt Tvede Med støtte fra: Snabslanten og
+                  DATS - Dansk Amatør Teater & Scenekunst
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!-- done - go go -->
+          <div class="grid gap-4">
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>16:30</p>
+                </div>
+              </div>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/PeeBFdf9aTcvHnbN7"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  Xenon - Teaterhuset
+                </a>
+              </div>
+            </div>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                GO GO YO-YOKU
+              </h3>
+
+              <button type="button" class="infobox mr-4 justify-self-end">
+                <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
+              </button>
+              <div class="content col-span-3 rounded-md">
+                <p>
+                  En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv
+                  fri i en skov. Det går godt for de tre roomies med at dele
+                  lejlighed, men kæft det går dårligt med at være mennesker i en
+                  nulfejlskultur, hvor alt handler om meritter og
+                  milepælsplaner. Rakel er blevet droppet af sin eks, Lua kommer
+                  bare aldrig videre til prøverne på Skuespillerskolen og Skjold
+                  dater alarmerende uhyggeligt meget. Ikke flere undvigemanøvre
+                  for at blive stemplet som fiasko. Ikke flere hvide løgne for
+                  at være bedre end man er. Ikke mere pleaser-pis for at rykke
+                  op i sit selvskabte hierarki. Ud med skam og ind med sandhed.
+                  Med inspiration i Shinrin-Yoku,
+                  anti-happy-go-lucky-mentalitet, vigtige venner og svære
+                  erkendelser tager Teater Kopfkino os med på en komisk
+                  dannelsesrejse midt i bøvlede livsprocesser. Instruktør:
+                  August Aabo Skuespillere Ann Celina Fønsskov, Sally Klie &
+                  Luca Storm Tekniker Niels Eske Juul Andersen Komponist Simon
+                  Klie Lyrik Musa Mijia Scenograf Ida Sofie Larsen Fotograf
+                  Tenzin Olivia Gustenhoff & Liva Bech Holskov Konsulent: Emil
+                  Christiansen
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!-- DONE MAND LIGGER SOM HAN HAR REDT -->
+          <div class="grid gap-4">
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div class="flex items-center gap-2">
+                <img src="img/clock-regular.svg" class="w-4" alt="" />
+                <p>19:15</p>
+              </div>
+              <a
+                class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                href="https://goo.gl/maps/TkG9yeMRTAmD7Kby5"
+              >
+                <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
+                VOX - Teaterhuset
+              </a>
+            </div>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                MAND LIGGER SOM HAN HAR REDT
+              </h3>
+
+              <button type="button" class="infobox mr-4 justify-self-end">
+                <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
+              </button>
+              <div class="content col-span-3 rounded-md">
+                <p>
+                  En forestilling af Kill Your Darlings Hvad sker der mellem
+                  mænd når der ikke er andre til stede? Logen: Et sted hvor kun
+                  mænd er velkomne. Hvor mænd føler sig trygge, men også hvor
+                  alt er på spil, både for dem som individer og som gruppe. Et
+                  nyt medlem skal optages i logen og indvies i broderskabets
+                  fællesskab, ritualer og kutymer. Hierarki, skyld, tabu, magt
+                  og maskulinitet bliver sat på en spids i et rum, hvor alt er
+                  velkomment. Både de sarte og følsomme momenter, samt vold,
+                  druk og alt imellem. Instruktør Rasmus Kragh Hemmingsen,
+                  Medinstruktør Laura Reynberg Langkilde Kunstnerisk ledelse
+                  Josefine Münster-Swendsen, Laura Reynberg Langkilde, Rasmus
+                  Kragh Hemmingsen Skuespillere Andreas Bitsch Lucas Da Costa
+                  Jørgensen, Malthe Heiberg, Mattias Valdemar Nielsen, Niels
+                  August Garly Andersen, Rasmus Grarup Elbo, Idé Bjørn
+                  Fonnesbech, Niels August Garly Andersen, Rasmus Kragh
+                  Hemmingsen Lys/lydtekniker Rasmus Lindahl Konsulent: Mia
+                  Lomholt
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!-- DONE - FRYGTEN FOR IKKE AT LEVE -->
+          <div class="grid gap-4">
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>20:30</p>
+                </div>
+              </div>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/PeeBFdf9aTcvHnbN7"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  Xenon - Teaterhuset
+                </a>
+              </div>
+            </div>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                FRYGTEN FOR IKKE AT LEVE
+              </h3>
+
+              <button type="button" class="infobox mr-4 justify-self-end">
+                <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
+              </button>
+              <div class="content col-span-3 rounded-md">
+                <p>
+                  En forestilling af JUNOS DISCIPLE I forestillingen “Frygten
+                  for ikke at leve” stiller vi os foran det spejl, der hedder
+                  Emilie Sannom. Emilie var berømt stuntkvinde og luftakrobat i
+                  1920’ernes stumfilm. Hun var frygtløs - der var ingenting hun
+                  ikke turde. Hun var verdenskendt som filmens vovehals,
+                  mændenes overmand og luftens herskerinde. I et drømmeunivers
+                  undersøger vi mennesket uden frygt. Kan vi leve et helt liv,
+                  og aldrig blive bange? Kan vi give afkald på frygten, uden at
+                  give afkald på os selv? Hvor smal er linjen mellem drøm og
+                  mareridt? Medvirkende: Amanda Syhler, Barbara Campeotto, Xenia
+                  Winther, Anna Gohr, Kristina Freese, Christian Mondrup, Fie
+                  Schmidt og Sofie Øhrberg Lund Konsulent: Julie Mogensen
                 </p>
               </div>
             </div>
@@ -453,41 +686,176 @@
             <h2 class="text-3xl">LØRDAG</h2>
           </div>
           <hr />
+
+          <!-- DONE FRYGTEN FOR IKKE AT LEVE-->
           <div class="grid gap-4">
-            <div class="flex gap-8">
-              <div class="flex items-center gap-2">
-                <img src="img/clock-regular.svg" class="w-4" alt="" />
-                <p>16.00</p>
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>12:30</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>14:45</p>
+                </div>
               </div>
-              <div class="flex items-center gap-2">
-                <img src="/img/location-dot-solid (1).svg" class="w-4" alt="" />
-                <p>ZeBU</p>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/PeeBFdf9aTcvHnbN7"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  Xenon - Teaterhuset
+                </a>
               </div>
             </div>
-            <div class="flex flex-col justify-between">
-              <h3 class="mb-0">What fires together wires together?</h3>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                FRYGTEN FOR IKKE AT LEVE
+              </h3>
 
-              <button type="button" class="infobox mr-4 self-end">
+              <button type="button" class="infobox mr-4 justify-self-end">
                 <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
               </button>
-              <div class="content rounded-md">
+              <div class="content col-span-3 rounded-md">
                 <p>
-                  En forestilling af Astrid & Lotte Forestillingen “What Fires
-                  Together Wires Together” eksperimenterer i spændingsfeltet
-                  mellem dans/bevægelse og naturvidenskab. Den tager
-                  udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What
-                  fires together wires together”, der beskriver hvordan
-                  repetitiv fyring af to nærliggende neuroner øger
-                  effektiviteten af den pågældende neuronale bane. Lidt ligesom
-                  en sti i græsset, der bliver nemmere at betræde jo flere, der
-                  går på den. Alt dette er sat i et identitetsperspektiv, der
-                  sætter spørgsmålstegn ved, hvor fastgroet vores identitet i
-                  virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte
-                  Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+                  En forestilling af JUNOS DISCIPLE I forestillingen “Frygten
+                  for ikke at leve” stiller vi os foran det spejl, der hedder
+                  Emilie Sannom. Emilie var berømt stuntkvinde og luftakrobat i
+                  1920’ernes stumfilm. Hun var frygtløs - der var ingenting hun
+                  ikke turde. Hun var verdenskendt som filmens vovehals,
+                  mændenes overmand og luftens herskerinde. I et drømmeunivers
+                  undersøger vi mennesket uden frygt. Kan vi leve et helt liv,
+                  og aldrig blive bange? Kan vi give afkald på frygten, uden at
+                  give afkald på os selv? Hvor smal er linjen mellem drøm og
+                  mareridt? Medvirkende: Amanda Syhler, Barbara Campeotto, Xenia
+                  Winther, Anna Gohr, Kristina Freese, Christian Mondrup, Fie
+                  Schmidt og Sofie Øhrberg Lund Konsulent: Julie Mogensen
                 </p>
               </div>
             </div>
           </div>
+          <hr />
+
+          <!-- DONE MAND LIGGER -->
+          <div class="grid gap-4">
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>13:00</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>17:30</p>
+                </div>
+              </div>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/TkG9yeMRTAmD7Kby5"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  VOX - Teaterhuset
+                </a>
+              </div>
+            </div>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                MAND LIGGER SOM HAN HAR REDT
+              </h3>
+
+              <button type="button" class="infobox mr-4 justify-self-end">
+                <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
+              </button>
+              <div class="content col-span-3 rounded-md">
+                <p>
+                  En forestilling af Kill Your Darlings Hvad sker der mellem
+                  mænd når der ikke er andre til stede? Logen: Et sted hvor kun
+                  mænd er velkomne. Hvor mænd føler sig trygge, men også hvor
+                  alt er på spil, både for dem som individer og som gruppe. Et
+                  nyt medlem skal optages i logen og indvies i broderskabets
+                  fællesskab, ritualer og kutymer. Hierarki, skyld, tabu, magt
+                  og maskulinitet bliver sat på en spids i et rum, hvor alt er
+                  velkomment. Både de sarte og følsomme momenter, samt vold,
+                  druk og alt imellem. Instruktør Rasmus Kragh Hemmingsen,
+                  Medinstruktør Laura Reynberg Langkilde Kunstnerisk ledelse
+                  Josefine Münster-Swendsen, Laura Reynberg Langkilde, Rasmus
+                  Kragh Hemmingsen Skuespillere Andreas Bitsch Lucas Da Costa
+                  Jørgensen, Malthe Heiberg, Mattias Valdemar Nielsen, Niels
+                  August Garly Andersen, Rasmus Grarup Elbo, Idé Bjørn
+                  Fonnesbech, Niels August Garly Andersen, Rasmus Kragh
+                  Hemmingsen Lys/lydtekniker Rasmus Lindahl Konsulent: Mia
+                  Lomholt Tvede
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- DONE DET LEVENDE RUM-->
+          <div class="grid gap-4">
+            <div class="grid grid-cols-3 gap-8 align-top">
+              <div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>12:45</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="img/clock-regular.svg" class="w-4" alt="" />
+                  <p>16:15</p>
+                </div>
+              </div>
+              <div class="col-span-2 col-end-4 flex items-start">
+                <a
+                  class="col-span-2 col-end-4 flex flex-row items-center gap-2"
+                  href="https://goo.gl/maps/jRvE4vZACpJZRPPv5"
+                >
+                  <img
+                    src="/img/location-dot-solid (1).svg"
+                    class="w-4"
+                    alt=""
+                  />
+                  ZeBU
+                </a>
+              </div>
+            </div>
+            <div class="grid grid-cols-3">
+              <h3 class="col-span-2 mb-0 text-xl text-vilskud_red">
+                DET LEVENDE RUM
+              </h3>
+
+              <button type="button" class="infobox mr-4 justify-self-end">
+                <img src="img/chevron-down-solid.svg" class="w-4" alt="" />
+              </button>
+              <div class="content col-span-3 rounded-md">
+                <p>
+                  En forestilling af Spræng Danseteater. I ‘Det Levende Rum’
+                  møder vi de mennesker, der er blevet elimineret fra den
+                  utopiske verden ‘New Harmony’. De er alle syndige i at have
+                  brudt ‘New Harmony’s regler og normer for god opførsel. Sat
+                  uden for samfundet opdager de, at de er overladt til dem selv,
+                  at der ingen begrænsninger og konsekvenser er, ved at følge
+                  deres menneskelige drifter. Sproget forsvinder, og fysikken
+                  tager over. Velkommen til den store driftsfest! Medvirkende:
+                  Sarah Olivia Klitgaard, Karoline Gammelgaard Jensen , Helga
+                  Bach-Mortensen , Katrine Vedsø Jakobsen og Mollie Næss-Schmidt
+                  Konsulent: Mia Lomholt Tvede Med støtte fra: Snabslanten og
+                  DATS - Dansk Amatør Teater & Scenekunst
+                </p>
+              </div>
+            </div>
+          </div>
+
           <hr />
         </section>
       </div>
