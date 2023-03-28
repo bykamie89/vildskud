@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,vue,js,ts,jsx,tsx}'],
+  content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      vilskud_red: '#ff0000',
-      baggrund: '#FFe9e9',
-      text_black: '#231e1e',
-      blue: '#1400ff',
-      kurves: '#ff00ff',
+      vilskud_red: "#ff0000",
+      baggrund: "#FFe9e9",
+      text_black: "#231e1e",
+      blue: "#1400ff",
+      kurves: "#ff00ff",
+      container: "#FFF8F8",
+      section: "#FFDEFF",
     },
 
     fontSize: {
@@ -23,15 +25,15 @@ module.exports = {
 
     extend: {
       screens: {
-        xxs: '374px',
-        xs: '540px',
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1423px',
+        xxs: "374px",
+        xs: "540px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1423px",
       },
     },
   },
-  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
-  plugins: [require('daisyui')],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
+  plugins: [require("daisyui")],
 };

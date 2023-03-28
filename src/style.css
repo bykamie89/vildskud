@@ -48,7 +48,6 @@ a {
   height: 3rem; 
   width: 9rem; 
   background-color: #1400ff; 
-
   border-radius: 50px;  
   cursor: pointer;
 }
@@ -57,9 +56,6 @@ a {
   color: #FFe9e9; 
   text-decoration: none;
 }
-
-
-
 
 
 hr {
