@@ -27,6 +27,7 @@ li {
   color: #231e1e;
   line-height: 1.6;
 }
+
 a {
   text-decoration: underline;
 }
@@ -40,10 +41,6 @@ a {
 
 }
 
-.ikons {
-  fill: blue;
-}
-
 .button{
   display: flex; 
   justify-content: center; 
@@ -51,10 +48,15 @@ a {
   height: 3rem; 
   width: 9rem; 
   background-color: #1400ff; 
-  color: #FFe9e9; 
   border-radius: 50px;  
   cursor: pointer;
 }
+
+.button a{
+  color: #FFe9e9; 
+  text-decoration: none;
+}
+
 
 hr {
   border: 0.5px solid #ff0000;
@@ -85,8 +87,9 @@ hr .white{
       display: block;
       margin: 2rem 4rem;
       font-size: 1.8rem;
-      color: white;
+      color: #FFF8F8;
       text-decoration: none;
+      border-bottom: 1px solid #FFF8F8;
     }
   
     .menuItem:hover {
