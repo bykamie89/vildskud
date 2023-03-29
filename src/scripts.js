@@ -37,8 +37,8 @@ for (i = 0; i < info.length; i++) {
   });
 }
 
-const cookieBox = document.querySelector('.wrapper'),
-  acceptBtn = cookieBox.querySelector('.buttons button');
+const cookieBox = document.querySelector('.cookiewrapper'),
+  acceptBtn = cookieBox.querySelector('.cookiebuttons button');
 
 acceptBtn.onclick = () => {
   document.cookie = 'CookieBy=Vkive; max-age=' + 60 * 60 * 24 * 30;
