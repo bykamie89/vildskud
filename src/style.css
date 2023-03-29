@@ -33,10 +33,9 @@ a {
   text-decoration: underline;
 }
 
-.logo{
+.logo {
   height: 5rem;
   width: 5rem;
-
 }
 
 .herobg {
@@ -70,7 +69,7 @@ a {
   text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
   background-color: #1100c6;
 }
 
@@ -92,7 +91,7 @@ hr .white {
 
 .content {
   display: none;
-  background-color: #FFF8F8;
+  background-color: #fff8f8;
   border: 1px solid #ff0000;
   padding: 0.5rem;
   margin-top: 0.5rem;
@@ -109,7 +108,7 @@ hr .white {
 
 .cookiewrapper {
   position: absolute;
-  top:60vh;
+  top: 60vh;
   width: 100%;
   background: white;
   border-radius: 15px;
@@ -165,18 +164,17 @@ hr .white {
   color: #ffe9e9;
 }
 
-#læs{
+#læs {
   color: #1400ff;
 }
 
-@media(min-width:769px){
-  .cookiewrapper{
+@media (min-width: 769px) {
+  .cookiewrapper {
     width: 30%;
     margin-left: 1rem;
-    top:55vh
+    top: 55vh;
   }
 }
-
 
 @media (max-width: 768px) {
   .menuItem {
