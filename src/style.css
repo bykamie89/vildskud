@@ -32,6 +32,13 @@ a {
   text-decoration: underline;
 }
 
+.logo{
+  height: 5rem;
+  width: 5rem;
+  padding-left: 0.8rem;
+  padding-top: 0.8rem;
+}
+
 .herobg {
   background-image: url("../img/swirl_desk.svg");
   background-repeat: no-repeat;
@@ -54,6 +61,10 @@ a {
 .button a {
   color: #ffe9e9;
   text-decoration: none;
+}
+
+.button:hover{
+  background-color: #1100c6;
 }
 
 hr {
