@@ -47,6 +47,13 @@ a {
   height: 85vh;
 }
 
+.menuItem{
+  text-decoration: none;
+}
+.menuItem:hover{
+  text-decoration: underline;
+}
+
 .button {
   display: flex;
   justify-content: center;
