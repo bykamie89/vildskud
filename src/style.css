@@ -84,13 +84,79 @@ hr .white {
 }
 
 .content {
-  display: none;
-  background-color: #fff8f8;
-  border: 1px solid #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 0.5rem;
   margin-top: 0.5rem;
 }
 
+.wrapper {
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  background: white;
+  max-width: 365px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px 25px 30px 25px;
+  box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.15);
+}
+.wrapper.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+::selection {
+  color: #ffe9e9;
+  background: #1400ff;
+}
+.wrapper img {
+  max-width: 150px;
+}
+.wrapper .content {
+  margin-top: 20px;
+}
+.wrapper header {
+  font-size: 25px;
+  font-weight: 600;
+}
+.content {
+  margin-top: 10px;
+}
+.content p {
+  color: #231e1e;
+  margin: 5px 0 20px 0;
+}
+.content .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons .item {
+  margin: 0 10px;
+}
+.buttons button {
+  padding: 10px 20px;
+  background: #1400ff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffe9e9;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.buttons button:hover {
+  transform: scale(0.97);
+}
+.buttons a {
+  color: #ffe9e9;
+}
+
+#læs{
+  color: #1400ff;
+}
 @media (max-width: 768px) {
   .menuItem {
     display: block;
@@ -145,56 +211,3 @@ hr .white {
     margin-bottom: 1rem;
   }
 }
-/* .swirl {
-  background-image: url(../img/swirl_2.svg);
-  width: 100%;
-  height: 250px;
-  background-position: -14% 0%;
-  background-repeat: no-repeat;
-}
-
-.swirl_2 {
-  background-image: url(../img/swirl_2.svg);
-  width: 100%;
-  height: 250px;
-  background-position: -14% 0%;
-  background-repeat: no-repeat;
-}
-
-@media (min-width: 450px) {
-  .swirl {
-    background-position: 0% 0%;
-  }
-  
-  @media (max-width: 767px) {
-    
-  
-  .menuItem {
-    display: block;
-    margin: 2rem 4rem;
-    font-size: 1.8rem;
-    color: white;
-    text-decoration: none;
-  }
-}
-
-@media (min-width: 600px) {
-  .swirl {
-    background-position: 15% 0%;
-  }
-  .swirl_2 {
-    background-position: 15% 0%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .swirl_2 {
-    background-position: 45% 0%;
-  }
-}
-
-  .swirl {
-    background-position: 10% 0%;
-  }
-}
-*/
