@@ -83,6 +83,14 @@ hr .white {
   cursor: pointer;
 }
 
+.content {
+  display: none;
+  background-color: #FFF8F8;
+  border: 1px solid #ff0000;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .cookietext {
   display: flex;
   justify-content: center;
@@ -158,7 +166,7 @@ hr .white {
   .cookiewrapper{
     width: 30%;
     margin-left: 1rem;
-    top:90vh
+    top:55vh
   }
 }
 
