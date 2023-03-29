@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     colors: {
       vilskud_red: "#ff0000",
-      baggrund: "#FFe9e9",
+      baggrund: "#FFE9E9",
       text_black: "#231e1e",
       blue: "#1400ff",
       kurves: "#ff00ff",
@@ -13,14 +13,14 @@ module.exports = {
     },
 
     fontSize: {
-      sm: '0.8rem',
-      base: '1rem',
-      xl: '1.25rem',
-      '2xl': '1.563rem',
-      '3xl': '1.953rem',
-      '4xl': '2.441rem',
-      '5xl': '3.052rem',
-      '6xl': '6rem',
+      sm: "0.8rem",
+      base: "1rem",
+      xl: "1.25rem",
+      "2xl": "1.563rem",
+      "3xl": "1.953rem",
+      "4xl": "2.441rem",
+      "5xl": "3.052rem",
+      "6xl": "6rem",
     },
 
     extend: {
