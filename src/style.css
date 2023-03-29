@@ -11,6 +11,7 @@
 @font-face {
   font-family: "inter";
   src: url("../font/inter-variablefont_slntwght-webfont.woff2") format("woff2");
+  font-display: swap;
 }
 
 h1,
@@ -35,8 +36,7 @@ a {
 .logo{
   height: 5rem;
   width: 5rem;
-  padding-left: 0.8rem;
-  padding-top: 0.8rem;
+
 }
 
 .herobg {
