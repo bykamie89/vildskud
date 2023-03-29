@@ -83,7 +83,7 @@ hr .white {
   cursor: pointer;
 }
 
-.content {
+.cookietext {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,18 +92,17 @@ hr .white {
   margin-top: 0.5rem;
 }
 
-.wrapper {
+.cookiewrapper {
   position: absolute;
-  top: 100px;
-  left: 450px;
+  top:60vh;
+  width: 100%;
   background: white;
-  max-width: 365px;
   border-radius: 15px;
   text-align: center;
   padding: 25px 25px 30px 25px;
   box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.15);
 }
-.wrapper.hide {
+.cookiewrapper.hide {
   opacity: 0;
   pointer-events: none;
 }
@@ -111,32 +110,29 @@ hr .white {
   color: #ffe9e9;
   background: #1400ff;
 }
-.wrapper img {
+.cookiewrapper img {
   max-width: 150px;
 }
-.wrapper .content {
+.cookiewrapper .cookietext {
   margin-top: 20px;
 }
-.wrapper header {
-  font-size: 25px;
-  font-weight: 600;
-}
-.content {
+
+.cookietext {
   margin-top: 10px;
 }
-.content p {
+.cookietext p {
   color: #231e1e;
   margin: 5px 0 20px 0;
 }
-.content .buttons {
+.cookietext .cookiebuttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.buttons .item {
+.cookiebuttons .item {
   margin: 0 10px;
 }
-.buttons button {
+.cookiebuttons button {
   padding: 10px 20px;
   background: #1400ff;
   border: none;
@@ -147,16 +143,26 @@ hr .white {
   cursor: pointer;
   border-radius: 50px;
 }
-.buttons button:hover {
+.cookiebuttons button:hover {
   transform: scale(0.97);
 }
-.buttons a {
+.cookiebuttons a {
   color: #ffe9e9;
 }
 
 #læs{
   color: #1400ff;
 }
+
+@media(min-width:769px){
+  .cookiewrapper{
+    width: 30%;
+    margin-left: 1rem;
+    top:90vh
+  }
+}
+
+
 @media (max-width: 768px) {
   .menuItem {
     display: block;
