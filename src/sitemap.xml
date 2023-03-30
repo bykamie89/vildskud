@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.example.com/page1.html</loc>
+    <loc>http://miabosse.dk/vildskud/index.html</loc>
+  </url>
+  <url>
+    <loc>http://miabosse.dk/vildskud/billetter.html</loc>
+  </url>
+    <url>
+    <loc>http://miabosse.dk/vildskud/lokationer.html</loc>
+  </url>
+    <url>
+    <loc>http://miabosse.dk/vildskud/om.html</loc>
+  </url>
+    <url>
+    <loc>hhttp://miabosse.dk/vildskud/cookiepolitik.html</loc>
+  </url>
+  <url>
+    <loc>http://miabosse.dk/vildskud/privatlivspolitik.html</loc>
+  </url>
+    <url>
+    <loc>http://miabosse.dk/vildskud/samarbejdspartnere.html</loc>
   </url>
 </urlset>
